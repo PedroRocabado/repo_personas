@@ -12,6 +12,7 @@ package proyecto_personas;
 public class Perso_1 {
     String nombre;
     int peso;
+    int estatura;
 
     public String getNombre() {
         return nombre;
@@ -19,10 +20,6 @@ public class Perso_1 {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public int getPeso() {
-        return peso;
     }
 
     public void setPeso(int peso) {
@@ -35,6 +32,6 @@ public class Perso_1 {
     }
     
     public int calcular(){
-        return peso;
+        return peso + estatura;
     }
 }
