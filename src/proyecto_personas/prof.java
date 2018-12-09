@@ -11,6 +11,7 @@ package proyecto_personas;
  */
 public class prof extends Perso_1{
     String materia;
+    String as;
 
     public prof(String materia, String nombre, int peso) {
         super(nombre, peso);
@@ -25,7 +26,7 @@ public class prof extends Perso_1{
     @Override
     public int calcular(){
         if (peso < 90){
-            peso=peso + 20;
+            peso=peso + 40;
             return peso;
         }else
         {
